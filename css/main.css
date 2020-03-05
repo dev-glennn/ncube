@@ -43,7 +43,8 @@
 }
 
 #main .navi_warp button.select{
-    background: #fff;
+    background: #ffcc00;
+    border-color: #ffcc00;
 }
 
 
