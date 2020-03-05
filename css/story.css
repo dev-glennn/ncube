@@ -5,14 +5,24 @@
     align-items: center;
 }
 
-#story .wrap {
+#story .wrap{
+    text-align: center;
+}
+#story .wrap > h1{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -0.9px;
+    margin-bottom: 77px;
+}
+
+#story .wrap>div {
     display: flex;
 }
 
 .story__contents{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 70px;
     flex: 1;
 }
@@ -21,15 +31,17 @@
     display: inline-block;
     margin-right: 13px;
     content: '';
-    width: 37px;
-    height: 37px;
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
     background-image: url("/ncube/images/story-icon.png");
 }
 
 .story__contents > h1{
-    font-size: 45px;
+    font-size: 26px;
     font-weight: bold;
-    letter-spacing: -0.9px;
+    letter-spacing: -0.52px;
+    text-align: left;
 }
 
 .story__contents > p{
@@ -41,6 +53,7 @@
 
 .circle-box{
     display: flex;
+    padding-bottom: 22px;
 }
 
 .circle{
@@ -71,7 +84,7 @@
 }
 
 .circle p{
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 14px;
     font-weight: 300;
     text-align: center;
