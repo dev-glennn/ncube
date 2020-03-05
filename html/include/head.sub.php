@@ -12,7 +12,7 @@
         href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-    <link rel="stylesheet" href="./css/common.css?ver=<?= TW_CSS_VER ?>">
+    <link rel="stylesheet" href="./css/common.css?ver=<?= G5_CSS_VER ?>">
     <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
 </head>
 <body data-lang="<?= $country ?>">
