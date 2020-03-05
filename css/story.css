@@ -1,0 +1,80 @@
+#story{
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+#story .wrap {
+    display: flex;
+}
+
+.story__contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.story__contents h1:before{
+    display: inline-block;
+    margin-right: 13px;
+    content: '';
+    width: 37px;
+    height: 37px;
+    background-image: url("/ncube/images/story-icon.png");
+}
+
+.story__contents > h1{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -0.9px;
+}
+
+.story__contents > p{
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    text-align: left;
+    color: #2c2c2c;
+}
+
+.circle-box{
+    display: flex;
+}
+
+.circle{
+    width: 241px;
+    height: 241px;
+    background: #fdd000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:first-child{
+    z-index: 10;
+}
+
+.circle:last-child{
+    background: #222222;
+    margin-left: -20px;
+}
+
+.circle span{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.34px;
+    text-align: center;
+}
+
+.circle p{
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.circle:last-child span, .circle:last-child p{
+    color: #fff;
+}
