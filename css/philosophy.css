@@ -1,0 +1,70 @@
+#philosophy {
+    width: 100%;
+    background-image: url("../images/philosophy-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#philosophy .wrap{
+    text-align: center;
+}
+
+#philosophy h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    margin-bottom: 90px;
+}
+
+#philosophy .philosophy__content span{
+    letter-spacing: -0.6px;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.33);
+}
+
+#philosophy .philosophy__content p{
+    margin-top: 16px;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.philosophy__item-box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.philosophy__item-box .item{
+    width: 340px;
+}
+
+.philosophy__item-box .item img{
+    float: left;
+}
+
+.philosophy__item-box .item .item-content{
+    float: left;
+    width: 100%;
+    height: 220px;
+    background: #fff;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 47px 0;
+}
+
+.philosophy__item-box .item .item-content h2{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+}
+
+.philosophy__item-box .item .item-content p{
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}
