@@ -98,26 +98,23 @@
 }
 
 .ecosystem-inner-desc {
+    width: 100%;
     position: absolute;
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
 }
 
 .s-ecosystem-circle {
+    display: inline-block;
+    position: relative;
     background-color: #fff;
     border-radius: 50%;
     width: 111px;
     height: 111px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.s-ecosystem-circle {
     margin-right: 25px;
 }
 
@@ -127,10 +124,17 @@
 
 .ecosystem-inner-desc hr {
     position: absolute;
-    width: 90%;
+    width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #dfdfdf;
     z-index: -1;
+}
+
+.s-ecosystem-circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
