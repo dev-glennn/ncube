@@ -4,7 +4,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
 ?>
 <header class="start">
     <div class="wrap">
-        <a class="header-logo" href="/"></a>
+        <a class="header-logo" href="/ncube"></a>
         <nav class="header__nav">
             <ul>
                 <li data-target="#story" class="select"><a>STORY</a></li>
@@ -16,7 +16,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
         </nav>
         <div class="header__lang">
             <ul>
-                <li><a href="">JOIN +</a></li>
+                <li><a target="_blank" href="http://hustory.net/bbs/register.php">JOIN +</a></li>
                 <li class="lang__change"><?= strtoupper($country) ?>
                     <ul class="change__ul">
                         <li><a href="#" data-lang="en">EN</a></li>
@@ -29,4 +29,11 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
     </div>
 </header>
 
-<div id="container">
+<aside id="leftAside">
+</aside>
+
+<aside id="rightAside">
+
+</aside>
+
+<div id="container" data-index="0">

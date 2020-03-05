@@ -35,15 +35,15 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
             </div>
         </li>
     </ul>
+    <script>
+        $('#main').tw_slide({
+            mode:'basic',
+            loop:true,
+            auto:true,
+            pause:".pause-div",
+            speed:500,
+            time:4500,
+            navi:true
+        });
+    </script>
 </section>
-<script>
-    $('#main').tw_slide({
-        mode:'basic',
-        loop:true,
-        auto:true,
-        pause:".pause-div",
-        speed:500,
-        time:4500,
-        navi:true
-    });
-</script>
