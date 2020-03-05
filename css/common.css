@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap&subset=korean');
+/*@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300&display=swap');*/
 
 * {
     box-sizing: border-box;
@@ -27,13 +28,13 @@ body, input, textarea, select, button, table {
 body {
     position: relative;
     -webkit-text-size-adjust: none;
-    font-family: 'notosans', sans-serif;
+    font-family: 'Noto Sans KR',sans-serif;
     color: #222;
     overflow-x: hidden;
 }
 
 input, button {
-    font-family: 'notosans', sans-serif;
+    font-family: 'Noto Sans KR',sans-serif;
 }
 
 button {
@@ -75,6 +76,7 @@ br {
 
 /*header*/
 header {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -85,16 +87,100 @@ header {
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 }
 
+header.start {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+header.start .header__nav > ul > li > a, header.start .header__lang> ul > li,header.start .header__lang> ul > li >a{
+    color: #fff;
+}
+
 header > .wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header-logo{
+    width: 116px;
+    height: 26px;
+    background-image: url("/ncube/images/logo-b.png");
+}
+
+header.start .header-logo{
+    background-image: url("/ncube/images/logo-w.png");
+}
+
+.header__nav{
+    margin-left: 100px;
+}
+
+.header__nav > ul > li {
+    float: left;
+    padding: 0 30px;
+}
+
+.header__nav > ul > li > a {
+    color: #999;
+    font-size: 16px;
+}
+
+.header__nav > ul > li.select a{
+    font-weight: 500;
+    color : #222
+}
+
+.header__lang {
+    margin-left: auto;
+}
+
+.header__lang > ul >li:first-child {
+    margin-right: 20px;
+}
+
+.header__lang > ul > li {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.header__lang > ul > li:first-child:before {
+    display: none;
+}
+
+.lang__change {
+    position: relative;
+    cursor: pointer;
+}
+
+.lang__change:after {
+    content: "\f0d7";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    margin-left: 8px;
+}
+
+.lang__change:hover .change__ul {
+    display: block;
+}
+
+.change__ul {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+}
+
+.change__ul li a {
+    display: inline-block;
+    padding-top: 5px;
+}
+
 /*header END*/
 
 #container {
-    /*header height*/
     padding-top: 78px;
     width: 100%;
     position: relative;
