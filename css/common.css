@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0
+}
+
+body, input, textarea, select, button, table {
+    font-size: 14px;
+}
+
+body {
+    position: relative;
+    -webkit-text-size-adjust: none;
+    font-family: 'notosans', sans-serif;
+    color: #222;
+    overflow-x: hidden;
+}
+
+input, button {
+    font-family: 'notosans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+img, fieldset {
+    border: 0
+}
+
+ul, ol {
+    list-style: none
+}
+
+em, address {
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #222;
+}
+
+table {
+    border-collapse: collapse
+}
+
+br {
+    font-family: dotum;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 78px;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
+
+header > .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*header END*/
+
+#container {
+    /*header height*/
+    padding-top: 78px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    z-index: 10;
+}
+
+#container > section {
+    position: relative;
+    height: calc(100vh - 78px)
+}
