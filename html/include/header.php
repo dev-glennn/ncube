@@ -30,10 +30,20 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
 </header>
 
 <aside id="leftAside">
+    <img class="scroll-down-w" src="<?= $NC_PATH ?>/images/scroll-down-w.png">
+    <img class="scroll-down-b none" src="<?= $NC_PATH ?>/images/scroll-down-b.png">
+    <img class="scroll-up none" src="<?= $NC_PATH ?>/images/scroll-up-w.png">
 </aside>
 
 <aside id="rightAside">
-
+    <ul>
+        <li class="select">01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+        <li>05</li>
+        <li>06</li>
+    </ul>
 </aside>
 
 <div id="container" data-index="0">

@@ -7,6 +7,7 @@
 
 html {
     height: 100%;
+    overflow: hidden;
 }
 
 html,
@@ -30,9 +31,10 @@ body {
     -webkit-text-size-adjust: none;
     font-family: 'Noto Sans KR', sans-serif;
     color: #222;
-    overflow-x: hidden;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 input, button {
@@ -72,7 +74,7 @@ br {
 .wrap {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1110px;
     position: relative;
 }
 
@@ -207,30 +209,66 @@ header.start .lang__change:hover .change__ul li a {
 #leftAside {
     position: fixed;
     left: 75px;
-    top: 50vh;
+    top: 50%;
     z-index: 80;
     color: #fff;
 }
 
-#leftAside:before {
-    content: '';
-    width: 23px;
-    height: 40px;
-    display: inline-block;
+#leftAside > img {
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translate(-50%, -120%);
-    background-image: url("../images/scroll-down-w.png");
+    left: 0;
+    transition: all 300ms;
+    opacity: 100%;
 }
 
-#leftAside:after {
-    content: 'SCROLL TO CONTINUE ';
-    display: inline-block;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    margin-left: 0;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
-    font-size: 12px;
-    letter-spacing: 1.2px;
+#leftAside > img.none {
+    opacity: 0;
+}
+
+/*#leftAside:before {*/
+/*    content: '';*/
+/*    width: 25px;*/
+/*    height: 210px;*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-image: url("../images/scroll-down-w.png");*/
+/*}*/
+
+/*.scroll-down-black#leftAside:before {*/
+/*    background-image: url("../images/scroll-down-b.png") !important;*/
+/*}*/
+
+/*.scroll-up#leftAside:before {*/
+/*    background-image: url("../images/scroll-up-w.png") !important;*/
+/*}*/
+
+#rightAside {
+    position: fixed;
+    right: 75px;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    z-index: 80;
+    color: #999;
+    /*text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);*/
+    font-size: 16px;
+    line-height: 2.5
+}
+
+#rightAside > ul > li.select {
+    color: #fdd000;
+}
+
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
 }
