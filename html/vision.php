@@ -1,5 +1,5 @@
 <?php
-add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/vision.css?ver=" . TW_CSS_VER . "'>");
+add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/vision.css?ver=" . G5_CSS_VER . "'>");
 ?>
 
 <section id="vision">
@@ -10,31 +10,31 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/vision.css?ver
                 <div class="vision-main">
                     <div class="section-vision-circle">
                         <div class="vision-half-circle">
-                            <div class="ball soft-color location-0">
+                            <div class="ball soft-color vision-location-0">
                                 <p class="vision-text">
                                     hudex Exchange<br>
                                     Blockchain Incubating LAB
                                 </p>
                             </div>
-                            <div class="ball hard-color location-25">
+                            <div class="ball hard-color vision-location-25">
                                 <p class="vision-text">
                                     Law Firm
                                     <span>(법무법인)</span>
                                 </p>
                             </div>
-                            <div class="ball soft-color location-50">
+                            <div class="ball soft-color vision-location-50">
                                 <p class="vision-text">
                                     Holdings Group
                                     <span>(지주회사:그룹)</span>
                                 </p>
                             </div>
-                            <div class="ball hard-color location-75">
+                            <div class="ball hard-color vision-location-75">
                                 <p class="vision-text">
                                     Accounting Firm
                                     <span>(회계법인)</span>
                                 </p>
                             </div>
-                            <div class="ball soft-color location-100">
+                            <div class="ball soft-color vision-location-100">
                                 <p class="vision-text">
                                     Bigdata System Control<br>
                                     Academy Center

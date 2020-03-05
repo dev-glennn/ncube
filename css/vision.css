@@ -30,6 +30,7 @@
 .vision-main {
     text-align: center;
     height: 413px;
+    margin-top: 70px;
 }
 
 .section-vision-circle {
@@ -69,27 +70,27 @@
     border-color: #fdb300;
 }
 
-.location-0:after {
+.vision-location-0:after {
     left: 0;
     bottom: -15%;
 }
 
-.location-25:after {
+.vision-location-25:after {
     left: 13%;
     top: 32%;
 }
 
-.location-50:after {
+.vision-location-50:after {
     left: 50%;
     top: 0%;
 }
 
-.location-75:after {
+.vision-location-75:after {
     left: 87%;
     top: 32%;
 }
 
-.location-100:after {
+.vision-location-100:after {
     left: 100%;
     bottom: -15%;
 }
@@ -110,35 +111,35 @@
     display: block;
 }
 
-.location-0 .vision-text {
+.vision-location-0 .vision-text {
     left: 0;
     bottom: -15%;
     transform: translate(-115%, 0);
     text-align: right;
 }
 
-.location-25 .vision-text {
+.vision-location-25 .vision-text {
     left: 13%;
     top: 32%;
     transform: translate(-115%, -70%);
     text-align: right;
 }
 
-.location-50 .vision-text {
+.vision-location-50 .vision-text {
     left: 50%;
     top: 0%;
     transform: translate(-50%, -140%);
     text-align: center;
 }
 
-.location-75 .vision-text {
+.vision-location-75 .vision-text {
     left: 87%;
     top: 32%;
     transform: translate(15%, -70%);
     text-align: left;
 }
 
-.location-100 .vision-text {
+.vision-location-100 .vision-text {
     left: 100%;
     bottom: -15%;
     transform: translate(15%, 0);
