@@ -19,7 +19,7 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/philosophy.css
                             '앤큐브 공동체는 기존의 사회 구조에서<br/>
                             벗어난 자유로운 생활과 행복한 삶을<br/>
                             살아갈 새로운 사람 공동체를 추구합니다.',
-                            'The Encube community seeks a new community
+                            'The nCube community seeks a new community
                              of people who will move away from the existing
                              social structure and lead a free and happy life.',
                             'Ncube共同体在现有的社会结构中<br/>
@@ -44,7 +44,7 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/philosophy.css
                             '도전적인 앤큐브 ‘人’은 새로운 체계와<br/>
                              문화의 가족을 구성하며, 행복하고 안정적인<br/>
                              삶을 함께 할 소중한 분들과 함께 합니다.',
-                            'The challenging Encube ‘人’ forms a family of new
+                            'The challenging nCube ‘人’ forms a family of new
                              systems and cultures, and is joined by precious
                              people who will share a happy and stable life.',
                             '具有挑战性的安立方"人"与新体系<br/>
