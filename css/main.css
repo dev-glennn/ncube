@@ -38,11 +38,11 @@
     min-width: 100%;
     min-height: 100.1%;
     transform: translate(-50%, -50%);
-    transition: transform 8s;
+    /*transition: transform 8s;*/
 }
 
 #main > ul > li.select > div > img {
-    transform: translate(-50%, -50%) scale(1.1);
+    /*transform: translate(-50%, -50%) scale(1.1);*/
 }
 
 #main .navi_warp {
