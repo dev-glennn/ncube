@@ -193,7 +193,7 @@ header.start .header-logo {
 
 .lang__change:hover .change__ul {
     opacity: 1;
-    visibility: unset;
+    visibility: visible;
 }
 
 .change__ul {
