@@ -12,7 +12,6 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/contact.css'>"
     </div>
     <footer>
         <span>
-            © 2020 <em>Three Kingdoms</em> All Rights Reserved.
-        </span>
+            © 2020 <em>n Cube</em> All Rights Reserved.
     </footer>
 </section>
