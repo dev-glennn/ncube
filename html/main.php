@@ -10,7 +10,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon01.png" alt="Humunity">
                     <h1>HUMUNITY</h1>
-                    <p>새로운 흐름, 선도적 경제, 도전적 <span>‘人’</span> 공동체</p>
+                    <p><?=lang('새로운 흐름, 선도적 경제, 도전적 <span>‘人’</span> 공동체','a new trend, a leading economy, a challenging <span> people </span>\'s community.','新潮流,先導性經濟,挑戰性<span> \'人\' </span>共同體')?></p>
                 </div>
             </div>
         </li>
@@ -20,7 +20,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon02.png" alt="Eco system">
                     <h1>ECOSYSTEM</h1>
-                    <p>자유로운 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계</p>
+                    <p><?=lang('자유로운 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계','a new economic ecosystem consisting of a free <span> people </span>\'s community.','由自由的<span> \'人\' </span>共同體構成的新經濟生態系')?></p>
                 </div>
             </div>
         </li>
@@ -30,7 +30,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon03.png" alt="Block chain">
                     <h1>BLOCK CHAIN</h1>
-                    <p>자율적 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계</p>
+                    <p><?=lang('자율적 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계','a new economic ecosystem consisting of autonomous <span> people </span>\'s community.','由自主的<span> \'人\' </span>共同體構成的新經濟生態系')?></p>
                 </div>
             </div>
         </li>
