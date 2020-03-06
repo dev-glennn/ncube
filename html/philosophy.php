@@ -24,7 +24,11 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/philosophy.css
                              social structure and lead a free and happy life.',
                             'Ncube共同体在现有的社会结构中<br/>
                              摆脱自由的生活和幸福的生活<br/>
-                             追求新的人类共同体。'
+                             追求新的人类共同体。',
+                            'アンキューブ共同体は既存の社会構造から<br/>
+                             離れた自由な生活と幸せな暮らしを<br/>
+                             生きていく新しい人間共同体を目指します。
+                            '
                         )
                         ?>
                     </p>
@@ -45,7 +49,11 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/philosophy.css
                              people who will share a happy and stable life.',
                             '具有挑战性的安立方"人"与新体系<br/>
                              组成文化家庭,幸福稳定的<br/>
-                             与一起生活地珍贵地人们在一起。'
+                             与一起生活地珍贵地人们在一起。',
+                            '挑戦的なアンキューブ"人"は、新しい体系と<br/>
+                             文化の家族を構成し、幸せで安定した<br/>
+                             一緒に生きる大切な方々と歩んでいきます。
+                            '
                         )
                         ?>
                     </p>
@@ -66,7 +74,10 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/philosophy.css
                              become a truly shared economic foundation.',
                             '新人,新家人在一起<br/>
                              真正成为共享经济基础的<br/>
-                             一起创造新的生活。'
+                             一起创造新的生活。',
+                            '新しい人、新しい家族は一緒に全てを<br/>
+                             シェアし、真の共有経済の基盤となる<br/>
+                             新しい生活を共に作っていきます。'
                         )
                         ?>
                     </p>
