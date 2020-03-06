@@ -6,48 +6,35 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/ecosystem.css?
     <h2 class="ecosystem-title">ECOSYSTEM</h2>
     <div class="table">
         <div class="table-cell">
-            <div class="wrap">
-                <div class="ecosystem-main">
-                    <div class="section-ecosystem-circle">
-                        <div class="ecosystem-outer-desc">
-                            <div class="ecosystem-circle eco-location-0">
-                                <div class="ecosystem-desc">
-                                    <img src="<?= $NC_PATH ?>/images/eco-hustory.png">
-                                    <p>온라인 쇼핑몰</p>
-                                </div>
-                            </div>
-                            <div class="ecosystem-circle eco-location-50">
-                                <div class="ecosystem-desc">
-                                    <img src="<?= $NC_PATH ?>/images/eco-cube.png">
-                                    <p>프렌차이즈 Biz</p>
-                                </div>
-                            </div>
-                            <div class="ecosystem-circle eco-location-75">
-                                <div class="ecosystem-desc">
-                                    <img src="<?= $NC_PATH ?>/images/eco-hustory.png">
-                                    <p>비즈니스 오피스</p>
-                                </div>
-                            </div>
-                            <div class="ecosystem-circle eco-location-100">
-                                <div class="ecosystem-desc">
-                                    <img src="<?= $NC_PATH ?>/images/eco-huwallet.png">
-                                    <p>전자지갑</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ecosystem-inner-desc">
-                            <hr>
-                            <div class="s-ecosystem-circle">
-                                <img src="<?= $NC_PATH ?>/images/eco-cbc.png">
-                            </div>
-                            <div class="s-ecosystem-circle">
-                                <img src="<?= $NC_PATH ?>/images/eco-ncash.png">
-                            </div>
-                            <div class="s-ecosystem-circle">
-                                <img src="<?= $NC_PATH ?>/images/eco-ncb.png">
-                            </div>
-                        </div>
+            <div class="ecosystem-content">
+                <div class="content-top">
+                    <div class="top-exchange">
+                        <img src="/ncube/images/eco-bithumb.png" alt="bithumb">
+                        <img src="/ncube/images/eco-hudex.png" alt="hudex">
                     </div>
+                    <div class="top-coin">
+                        <div class="coin"><img src="/ncube/images/eco-cbc.png" alt="cbc"></div>
+                        <div class="coin"><img src="/ncube/images/eco-ncash.png" alt="ncash"></div>
+                        <div class="coin"><img src="/ncube/images/eco-ncb.png" alt="ncb"></div>
+                    </div>
+                </div>
+                <div class="content-bottom">
+                    <a class="bottom-item" target="_blank" href="http://humall.kr/shop/">
+                        <img src="/ncube/images/eco-humall.png" alt="humall">
+                        <span>온라인쇼핑몰</span>
+                    </a>
+                    <a class="bottom-item">
+                        <img src="/ncube/images/eco-cube.png" alt="cubezone">
+                        <span>프렌차이즈 Biz</span>
+                    </a>
+                    <a class="bottom-item" target="_blank" href="http://hustory.net/">
+                        <img src="/ncube/images/eco-hustory.png" alt="hustory">
+                        <span>비지니스 오피스</span>
+                    </a>
+                    <a class="bottom-item">
+                        <img src="/ncube/images/eco-huwallet.png" alt="huwallet">
+                        <span>전자지갑</span>
+                    </a>
                 </div>
             </div>
         </div>
