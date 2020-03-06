@@ -209,13 +209,18 @@ header.start .lang__change:hover .change__ul li a {
     position: fixed;
     left: 75px;
     top: 50%;
+    transform: translateY(-50%);
     z-index: 80;
     color: #fff;
+    display: inline-block;
+    width: 25px;
+    height: 210px;
 }
 
 #leftAside > img {
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
     transition: all 300ms;
     opacity: 100%;
