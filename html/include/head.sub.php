@@ -12,8 +12,8 @@
             href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-    <link rel="stylesheet" href="./css/common.css?ver=<?= G5_CSS_VER ?>">
-    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="/ncube/css/common.css?ver=<?= G5_CSS_VER ?>">
+    <script type="text/javascript" src="/ncube/js/jquery-3.2.1.min.js"></script>
     <script>
 
     </script>

@@ -8,6 +8,8 @@
 html {
     height: 100%;
     overflow: hidden;
+	overflow-x:auto;
+	min-width:1110px;
 }
 
 html,
@@ -34,7 +36,6 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    overflow-y: scroll;
 }
 
 input, button {
@@ -105,6 +106,7 @@ header > .wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
+	min-width:1110px;
 }
 
 .header-logo {
@@ -202,7 +204,8 @@ header.start .lang__change:hover .change__ul li a {
 #container > section {
     padding-top: 78px;
     position: relative;
-    height: 100vh
+    height: 100vh;
+	overflow:hidden;
 }
 
 #leftAside {
@@ -247,15 +250,6 @@ header.start .lang__change:hover .change__ul li a {
 
 #rightAside > ul > li.select {
     color: #fdd000;
-}
-
-body {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-
-body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
 }
 
 .table {

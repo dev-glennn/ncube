@@ -4,7 +4,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
 ?>
 <header class="start">
     <div class="wrap">
-        <a class="header-logo" href="/ncube"></a>
+        <a class="header-logo" href="/"></a>
         <nav class="header__nav">
             <ul>
                 <li data-target="1" class="select"><a>STORY</a></li>

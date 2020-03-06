@@ -63,8 +63,8 @@ function fullScreenScroll() {
 function moveEvent(index) {
     let last_index = $("#container > *").last().index() * 1;
 
-    $("#container").attr('data-index', index);
-    $('body').animate({'scrollTop': ($(window).height() * index)}, 500);
+    $("#container").attr('data-index', index).css('margin-top', '-' + ($(window).height() * index) + 'px');
+   // $('body').animate({'scrollTop': ($(window).height() * index)}, 500);
 
     if (index == 0)
         $("header").addClass('start');
