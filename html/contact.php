@@ -10,4 +10,9 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/contact.css'>"
                 frameborder="0"></iframe>
         <p class="contact-address">A. <?=lang('서울 강남구 삼성로 95길 메디스퀘어빌딩 2,3층','F2-F3, Medisquare Building, 35, Samseong-ro 95-gil, Gangnam-gu, Seoul, Republic of Korea','首尔江南区三星路95街Medisquare大厦F2,F3','ソウル江南区サムソンロ95道メディスクエアビル2、3階')?></p>
     </div>
+    <footer>
+        <span>
+            © 2020 <em>Three Kingdoms</em> All Rights Reserved.
+        </span>
+    </footer>
 </section>
