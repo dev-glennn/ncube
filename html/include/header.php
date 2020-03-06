@@ -17,12 +17,27 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
         <div class="header__lang">
             <ul>
                 <li><a target="_blank" href="http://hustory.net/bbs/register.php">JOIN +</a></li>
-                <li class="lang__change"><?= strtoupper($country) ?>
+                <li class="lang__change">
+                    <?php
+                    if (strtoupper($country) == 'KO') {
+                        echo "KOREAN";
+                    } else if (strtoupper($country) == 'EN') {
+                        echo "ENGLISH";
+                    } else if (strtoupper($country) == 'CH') {
+                        echo "CHINESE";
+                    } else if (strtoupper($country) == 'JA') {
+                        echo "JAPANESE";
+                    }
+                    ?>
                     <ul class="change__ul">
-                        <li><a href="#" data-lang="en">EN</a></li>
-                        <li><a href="#" data-lang="ch">CH</a></li>
-                        <li><a href="#" data-lang="ko">KO</a></li>
-                        <li><a href="#" data-lang="ja">JP</a></li>
+                        <li <?php if(strtoupper($country)=='EN') echo 'class="nav-none"'?>>
+                            <a href="#" data-lang="en">ENGLISH</a></li>
+                        <li <?php if(strtoupper($country)=='KO') echo 'class="nav-none"'?>>
+                            <a href="#" data-lang="ko">KOREA</a></li>
+                        <li <?php if(strtoupper($country)=='CH') echo 'class="nav-none"'?>>
+                            <a href="#" data-lang="ch">CHINESE</a></li>
+                        <li <?php if(strtoupper($country)=='JA') echo 'class="nav-none"'?>>
+                            <a href="#" data-lang="ja">JAPANESE</a></li>
                     </ul>
                 </li>
             </ul>
