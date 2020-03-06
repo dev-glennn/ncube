@@ -44,7 +44,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
             loop:true,
             auto:true,
             pause:".pause-div",
-            speed:500,
+            speed:1000,
             time:5500,
             navi:true
         });
