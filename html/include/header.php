@@ -7,11 +7,11 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
         <a class="header-logo" href="/ncube"></a>
         <nav class="header__nav">
             <ul>
-                <li data-target="#story" class="select"><a>STORY</a></li>
-                <li data-target="#philosophy"><a>PHILOSOPHY</a></li>
-                <li data-target="#ecosystem"><a>ECOSYSTEM</a></li>
-                <li data-target="#vision"><a>VISION</a></li>
-                <li data-target="#contact"><a>CONTACT</a></li>
+                <li data-target="1" class="select"><a>STORY</a></li>
+                <li data-target="2"><a>PHILOSOPHY</a></li>
+                <li data-target="3"><a>ECOSYSTEM</a></li>
+                <li data-target="4"><a>VISION</a></li>
+                <li data-target="5"><a>CONTACT</a></li>
             </ul>
         </nav>
         <div class="header__lang">
@@ -37,12 +37,12 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
 
 <aside id="rightAside">
     <ul>
-        <li class="select">01</li>
-        <li>02</li>
-        <li>03</li>
-        <li>04</li>
-        <li>05</li>
-        <li>06</li>
+        <li data-target="0" class="select">01</li>
+        <li data-target="1">02</li>
+        <li data-target="2">03</li>
+        <li data-target="3">04</li>
+        <li data-target="4">05</li>
+        <li data-target="5">06</li>
     </ul>
 </aside>
 

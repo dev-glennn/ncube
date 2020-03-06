@@ -236,6 +236,10 @@ header.start .lang__change:hover .change__ul li a {
     line-height: 2.5
 }
 
+#rightAside > ul > li {
+    cursor: pointer;
+}
+
 #rightAside > ul > li.select {
     color: #fdd000;
 }
