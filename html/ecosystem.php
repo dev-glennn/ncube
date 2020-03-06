@@ -21,19 +21,19 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/ecosystem.css?
                 <div class="content-bottom">
                     <a class="bottom-item" target="_blank" href="http://humall.kr/shop/">
                         <img src="/ncube/images/eco-humall.png" alt="humall">
-                        <span>온라인쇼핑몰</span>
+                        <span><?= lang('온라인쇼핑몰', 'Online shopping mall', '网上购物中心') ?></span>
                     </a>
                     <a class="bottom-item">
                         <img src="/ncube/images/eco-cube.png" alt="cubezone">
-                        <span>프렌차이즈 Biz</span>
+                        <span><?= lang('프렌차이즈 Biz', 'Friends Biz', 'Frenchiz Biz') ?></span>
                     </a>
                     <a class="bottom-item" target="_blank" href="http://hustory.net/">
                         <img src="/ncube/images/eco-hustory.png" alt="hustory">
-                        <span>비지니스 오피스</span>
+                        <span><?= lang('비지니스 오피스', 'Business Office', '商务办公') ?></span>
                     </a>
                     <a class="bottom-item">
                         <img src="/ncube/images/eco-huwallet.png" alt="huwallet">
-                        <span>전자지갑</span>
+                        <span><?= lang('전자지갑', 'Electronic wallet', '电子钱包') ?></span>
                     </a>
                 </div>
             </div>
