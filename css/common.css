@@ -190,7 +190,6 @@ header.start .lang__change:hover .change__ul li a {
 /*header END*/
 
 #container {
-    /*padding-top: 78px;*/
     width: 100%;
     position: relative;
     display: inline-block;
@@ -226,28 +225,6 @@ header.start .lang__change:hover .change__ul li a {
     opacity: 0;
 }
 
-/*#leftAside:before {*/
-/*    content: '';*/
-/*    width: 25px;*/
-/*    height: 210px;*/
-/*    display: inline-block;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 50%;*/
-/*    transform: translate(-50%, -50%);*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    background-image: url("../images/scroll-down-w.png");*/
-/*}*/
-
-/*.scroll-down-black#leftAside:before {*/
-/*    background-image: url("../images/scroll-down-b.png") !important;*/
-/*}*/
-
-/*.scroll-up#leftAside:before {*/
-/*    background-image: url("../images/scroll-up-w.png") !important;*/
-/*}*/
-
 #rightAside {
     position: fixed;
     right: 75px;
@@ -255,7 +232,6 @@ header.start .lang__change:hover .change__ul li a {
     transform: translate(-50%, -50%);
     z-index: 80;
     color: #999;
-    /*text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);*/
     font-size: 16px;
     line-height: 2.5
 }
