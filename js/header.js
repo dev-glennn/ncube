@@ -50,10 +50,12 @@ function fullScreenScroll() {
                     this_index--;
 
                 moveEvent(this_index)
+				
+				setTimeout(function () {
+					scrollStart = 0;
+				}, 500);
 
-                setTimeout(function () {
-                    scrollStart = 0;
-                }, 500);
+				e.preventdefault();
             }
             return false;
         });
