@@ -22,6 +22,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
                         <li><a href="#" data-lang="en">EN</a></li>
                         <li><a href="#" data-lang="ch">CH</a></li>
                         <li><a href="#" data-lang="ko">KO</a></li>
+                        <li><a href="#" data-lang="ja">JP</a></li>
                     </ul>
                 </li>
             </ul>
