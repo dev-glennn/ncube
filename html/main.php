@@ -10,7 +10,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon01.png" alt="Humunity">
                     <h1>HUMUNITY</h1>
-                    <p>새로운 흐름, 선도적 경제, 도전적‘人’공동체</p>
+                    <p>새로운 흐름, 선도적 경제, 도전적 <span>‘人’</span> 공동체</p>
                 </div>
             </div>
         </li>
@@ -20,7 +20,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon02.png" alt="Eco system">
                     <h1>ECOSYSTEM</h1>
-                    <p>자유로운 ‘人’공동체로 구성되는 새로운 경제 생태계</p>
+                    <p>자유로운 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계</p>
                 </div>
             </div>
         </li>
@@ -30,7 +30,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon03.png" alt="Block chain">
                     <h1>BLOCK CHAIN</h1>
-                    <p>자유로운 ‘人’공동체로 구성되는 새로운 경제 생태계</p>
+                    <p>자율적 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계</p>
                 </div>
             </div>
         </li>
