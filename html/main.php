@@ -45,7 +45,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
             auto:true,
             pause:".pause-div",
             speed:500,
-            time:4500,
+            time:5500,
             navi:true
         });
     </script>
