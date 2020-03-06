@@ -30,7 +30,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon03.png" alt="Block chain">
                     <h1>BLOCK CHAIN</h1>
-                    <p>자유로운 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계</p>
+                    <p>자율적 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계</p>
                 </div>
             </div>
         </li>
