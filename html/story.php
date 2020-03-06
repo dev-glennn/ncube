@@ -11,22 +11,34 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/story.css'>");
             </div>
             <div class="story__contents">
                 <h1>nCube Committee</h1>
-                <p>앤큐브 홀딩스는 산하 핵심계열사 및 제휴법인과의 융합을 통해 사람 ‘人’
+                <p><?=lang('앤큐브 홀딩스는 산하 핵심계열사 및 제휴법인과의 융합을 통해 사람 ‘人’
                     공통체를 기반으로 실질적 Tokenomics 글로벌 생태계 기반 구축을
                     목표로 블록체인 기술 개발 및 공유경제 리더기업을 육성하고, 글로벌의
                     천만명의 건강한 앤큐브‘人’ 공동체 생태계 완성을 목표 달려갑니다.
                     <br/><br/>
                     앤큐브의 가치는 새로운 유통의 흐름과 중심을 사람 ‘人’으로 그 가치를
-                    추구하며 사람으로 이루어진 새로운 공동체의 패러다임을 선도합니다.
+                    추구하며 사람으로 이루어진 새로운 공동체의 패러다임을 선도합니다.','Ancube Holdings is a person \'人\' through convergence with its core affiliates and affiliated companies.
+                    Building a Practical Tokenomics Global Ecosystem Foundation based on Common Bodies
+                    The goal is to develop blockchain technology and foster shared economy leaders, and to promote global
+                    The goal is to complete the community ecosystem of 10 million healthy Ancube
+                    <br/><br/>
+                    The value of the Ancube is the value of the new flow and center of distribution as a human being.
+                    Lead the paradigm of a new community of people in pursuit.','安立方控股通過與旗下核心子公司及合作法人的融合,"人
+                    以共同體爲基礎構建實質性的Tokenomics全球生態系基礎
+                    目標:開發積木鏈技術,培育共享經濟領導企業,全球化
+                    "千萬健康安立方"人"社區生態體系完成目標奔奔。
+                    <br/><br/>
+                    "安立方"的價值在於,以新的流通潮流和中心爲"人",其價值
+                    引領由追求者構成的新共同體模式。')?>
                 </p>
                 <div class="circle-box">
                     <div class="circle">
                         <span>The Frontier of 4th <br/> Industrial Revolution</span>
-                        <p>글로벌 유통혁신 커뮤니티 <br/> (공동체) </p>
+                        <p><?=lang('글로벌 유통혁신 커뮤니티 <br/> (공동체)','Global Distribution Innovation Community <br/> (Community)','全球流通創新社區 <br/> (共同體)')?></p>
                     </div>
                     <div class="circle">
                         <span>nCube humunity <br/> Community</span>
-                        <p>앤큐브 人 공동체 <br/> (휴머니티)</p>
+                        <p><?=lang('앤큐브 人 공동체 <br/> (휴머니티)','Ancube Community <br/> (Humanity)','AnCube 人 社區 <br/> (Hummitty)')?></p>
                     </div>
                 </div>
             </div>
