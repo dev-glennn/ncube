@@ -10,7 +10,10 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon01.png" alt="Humunity">
                     <h1>HUMUNITY</h1>
-                    <p><?=lang('새로운 흐름, 선도적 경제, 도전적 <span>‘人’</span> 공동체','a new trend, a leading economy, a challenging <span> people </span>\'s community.','新潮流,先導性經濟,挑戰性<span> \'人\' </span>共同體','新しい流れ、先導的経済、挑戦的<span> ‘人’ </span>共同体')?></p>
+                    <p>
+                        <?=lang('새로운 흐름, 선도적 경제, 도전적 <span>‘人’</span> 공동체',
+                            'a new trend, a leading economy, a challenging <span> people </span>\'s community.',
+                            '新潮流,先導性經濟,挑戰性<span> \'人\' </span>共同體','新しい流れ、先導的経済、挑戦的<span> ‘人’ </span>共同体')?></p>
                 </div>
             </div>
         </li>
@@ -39,7 +42,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
         $('#main').tw_slide({
             mode:'basic',
             loop:true,
-            auto:false,
+            auto:true,
             pause:".pause-div",
             speed:500,
             time:4500,
