@@ -15,56 +15,56 @@
     text-align: center;
 }
 
-.ecosystem-content{
+.ecosystem-content {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.content-top{
+.content-top {
     display: flex;
     flex-direction: column;
 }
 
-.content-top .top-exchange{
+.content-top .top-exchange {
     margin-bottom: 33px;
 }
 
-.content-top .top-exchange>img:first-child{
+.content-top .top-exchange > img:first-child {
     margin-right: 33px;
 }
 
-.content-top .top-coin{
+.content-top .top-coin {
     display: flex;
     justify-content: center;
     padding-bottom: 44px;
     position: relative;
 }
 
-.content-top .top-coin:before{
+.content-top .top-coin:before {
     content: '';
     display: inline-block;
-    position : absolute;
-    width : 100%;
-    height : 1px;
-    top:39%;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 39%;
     transform: translateY(-50%);
     background-color: #fff;
 }
 
-.content-top .top-coin:after{
+.content-top .top-coin:after {
     content: '';
     display: inline-block;
-    position : absolute;
-    width : 1px;
-    height : 100%;
+    position: absolute;
+    width: 1px;
+    height: 100%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #fff;
 }
 
-.content-top .top-coin .coin{
+.content-top .top-coin .coin {
     width: 111px;
     height: 111px;
     background: #fff;
@@ -76,11 +76,11 @@
     z-index: 10;
 }
 
-.content-top .top-coin .coin:last-child{
+.content-top .top-coin .coin:last-child {
     margin-right: 0;
 }
 
-.content-bottom{
+.content-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@
     background-position: center;
 }
 
-.content-bottom >.bottom-item{
+.content-bottom > .bottom-item {
     position: relative;
     width: 203px;
     height: 203px;
@@ -103,13 +103,17 @@
     margin-right: 25px;
 }
 
-.content-bottom >.bottom-item>span{
+.content-bottom > .bottom-item > span {
     position: absolute;
     width: 100%;
     left: 50%;
-    bottom : 0;
+    bottom: 0;
     transform: translate(-50%, 180%);
     color: #ffffff;
     font-size: 16px;
     letter-spacing: -0.32px;
+}
+
+body[data-lang='ja'] .content-bottom > .bottom-item > span {
+    letter-spacing: -1.5px;
 }
