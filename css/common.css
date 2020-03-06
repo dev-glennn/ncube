@@ -193,9 +193,12 @@ header.start .header-logo {
 
 .lang__change:hover .change__ul {
     opacity: 1;
+    visibility: unset;
 }
 
 .change__ul {
+    visibility: hidden;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     transition: all 300ms;
     opacity: 0;
     position: absolute;
