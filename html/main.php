@@ -39,7 +39,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
         $('#main').tw_slide({
             mode:'basic',
             loop:true,
-            auto:true,
+            auto:false,
             pause:".pause-div",
             speed:500,
             time:4500,
