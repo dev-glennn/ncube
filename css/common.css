@@ -308,3 +308,29 @@ header.start .header-logo {
     vertical-align: middle;
     height: 100%
 }
+
+
+@media screen and (max-width: 1350px) {
+    #leftAside, #rightAside{
+        display: none;
+    }
+
+    header >.wrap{
+        padding: 0 20px;
+        min-width: 900px;
+    }
+
+    .header__nav {
+        margin-left: 35px;
+    }
+
+    .header__nav > ul > li {
+        padding: 0 15px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+}
