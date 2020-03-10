@@ -356,4 +356,10 @@ header.start .header-logo {
         overflow-y: auto;
     }
 
+    .wrap {
+        margin: 0;
+        padding: 0 20px;
+        width: 100%;
+        max-width: none;
+    }
 }
