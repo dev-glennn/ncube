@@ -355,6 +355,19 @@ header.start .header-logo {
     body {
         overflow-y: auto;
     }
+    
+    .wrap {
+        margin: 0;
+        padding: 0 20px;
+        width: 100%;
+        max-width: none;
+    }
+
+    #container > section{
+        height: auto !important;
+        min-height: 100vh;
+        padding : 75px 0;
+    }
 
     .wrap {
         margin: 0;
