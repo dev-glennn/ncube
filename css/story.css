@@ -17,8 +17,12 @@
 
 #story .wrap>div {
     display: flex;
+    justify-content: center;
 }
 
+#story .wrap>div>.story__image>img {
+    width: 100%;
+}
 .story__contents{
     display: flex;
     flex-direction: column;
@@ -52,6 +56,9 @@
     padding-bottom: 20px;
 }
 
+.story__contents > p>b{
+    font-weight: normal;
+}
 .circle-box{
     display: flex;
     padding-bottom: 22px;
@@ -93,4 +100,89 @@
 
 .circle:last-child span, .circle:last-child p{
     color: #fff;
+}
+
+
+@media screen and (max-width: 1350px) and (min-width: 900px) {
+
+    #story .wrap>div>.story__image {
+        width: 40%;
+        display: flex;
+    }
+
+    .story__contents{
+        width: 55%;
+        max-width: 600px;
+        margin-left: 30px;
+    }
+
+    .story__contents > h1{
+        margin-bottom: 10px;
+    }
+
+    .circle{
+        width: 215px;
+        height: 215px;
+    }
+
+    .circle span{
+        font-size: 16px;
+    }
+
+    .circle p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #container > #story{
+        padding-top: 75px !important;
+    }
+
+    #story .wrap>div{
+        flex-direction: column;
+    }
+
+    #story .wrap > h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .story__contents{
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .story__contents > h1{
+        margin-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .story__contents h1:before{
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+    }
+    .story__contents > p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .circle-box{
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .circle{
+        width: 170px;
+        height: 170px;
+    }
+    .circle span{
+        font-size: 14px;
+    }
+    .circle p{
+        margin-top: 8px;
+        font-size: 13px;
+    }
+
+    .story__contents > p>b{
+        font-weight: bold;
+    }
 }

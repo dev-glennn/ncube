@@ -11,13 +11,13 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/story.css'>");
             </div>
             <div class="story__contents">
                 <h1>nCube Committee</h1>
-                <p><?=lang('앤큐브 홀딩스는 산하 핵심계열사 및 제휴법인과의 융합을 통해 사람 ‘人’
-                    공통체를 기반으로 실질적 Tokenomics 글로벌 생태계 기반 구축을
-                    목표로 블록체인 기술 개발 및 공유경제 리더기업을 육성하고, 글로벌의
-                    천만명의 건강한 앤큐브‘人’ 공동체 생태계 완성을 목표 달려갑니다.
+                <p><?=lang('앤큐브 홀딩스는 <b>산하 핵심계열사 및 제휴법인과의 융합을 통해 사람 ‘人’
+                    공통체를 기반으로</b> 실질적 Tokenomics 글로벌 생태계 기반 구축을
+                    목표로 블록체인 기술 개발 및 공유경제 리더기업을 육성하고, <b>글로벌
+                    천만명의 건강한 앤큐브‘人’ 공동체 생태계 완성을 목표</b> 달려갑니다.
                     <br/><br/>
-                    앤큐브의 가치는 새로운 유통의 흐름과 중심을 사람 ‘人’으로 그 가치를
-                    추구하며 사람으로 이루어진 새로운 공동체의 패러다임을 선도합니다.','nCube Holdings is a person \'人\' through convergence with its core affiliates and affiliated companies.
+                    앤큐브의 가치는 새로운 유통의 흐름과 중심을 <b>사람 ‘人’으로 그 가치를
+                    추구하며 사람으로 이루어진 새로운 공동체의 패러다임을 선도</b>합니다.','nCube Holdings is a person \'人\' through convergence with its core affiliates and affiliated companies.
                     Building a Practical Tokenomics Global Ecosystem Foundation based on Common Bodies
                     The goal is to develop blockchain technology and foster shared economy leaders, and to promote global
                     The goal is to complete the community ecosystem of 10 million healthy nCube
