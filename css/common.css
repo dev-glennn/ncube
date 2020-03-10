@@ -310,7 +310,7 @@ header.start .header-logo {
 }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1350px) and (min-width: 900px){
     #leftAside, #rightAside{
         display: none;
     }
@@ -331,6 +331,17 @@ header.start .header-logo {
 }
 
 @media screen and (max-width: 900px) {
+    #leftAside, #rightAside{
+        display: none;
+    }
 
+    html {
+        min-width: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    body {
+        overflow-y: auto;
+    }
 
 }
