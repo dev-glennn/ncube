@@ -20,7 +20,7 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/ecosystem.css?
                         </div>
                     </div>
                     <div class="content-bottom">
-                        <div>
+                        <div class="content-bottom-wrap">
                             <a class="bottom-item" target="_blank" href="http://humall.kr/shop/">
                                 <img src="/ncube/images/eco-humall.png" alt="humall">
                                 <span><?= lang('온라인쇼핑몰', 'Online shopping mall', '网上购物中心', 'オンラインショッピングモール') ?></span>
