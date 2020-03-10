@@ -17,3 +17,10 @@
 .vision-main {
     text-align: center;
 }
+
+@media screen and (max-width: 1350px) and (min-width: 900px) {
+    .vision-main img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
