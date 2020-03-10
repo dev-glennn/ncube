@@ -364,7 +364,7 @@ header.start .header-logo {
     }
 
     #container > section{
-        height: auto !important;
+        height: auto ;
         min-height: 100vh;
         padding : 75px 0;
     }

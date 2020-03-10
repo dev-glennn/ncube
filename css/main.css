@@ -105,5 +105,20 @@
 }
 
 @media screen and (max-width: 900px) {
-
+    #main{
+        padding :0 !important;
+        height: 100vh !important;
+    }
+    .main-box > img{
+        width : 120px;
+    }
+    .main-box h1{
+        font-size: 38px;
+    }
+    .main-box p{
+        font-size: 16px;
+    }
+    .main-box p > span{
+        font-size: 22px;
+    }
 }
