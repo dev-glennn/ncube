@@ -1,6 +1,10 @@
 $(function () {
     headerType();
     fullScreenScroll();
+    $(window).resize(function () {
+        let widthSize = window.outerWidth;
+        isMobile(widthSize)
+    })
 
     $(".change__ul>li>a").on('click', function () {
         let lang = $(this).attr('data-lang')
@@ -32,12 +36,21 @@ function headerType() {
     }
 }
 
+function isMobile(width) {
+    if (width <= 900) {
+        $('body').attr('data-size', 'mobile')
+    } else {
+        $('body').attr('data-size', 'pc')
+    }
+}
+
 function fullScreenScroll() {
     var scrollStart = 0;
     $(document).ready(function () {
         $('body').bind('mousewheel DOMMouseScroll wheel', function (e) {
             let widthSize = window.outerWidth;
             if (widthSize > 900) {
+                isMobile(widthSize)
                 var delta = e.originalEvent.deltaY;
 
                 var this_index = $("#container").attr('data-index') * 1;

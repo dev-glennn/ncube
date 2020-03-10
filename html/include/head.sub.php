@@ -18,4 +18,4 @@
 
     </script>
 </head>
-<body data-lang="<?= $country ?>">
+<body data-size="pc" data-lang="<?= $country ?>">

@@ -310,6 +310,13 @@ header.start .header-logo {
     height: 100%
 }
 
+.pc-view {
+    display: block !important;
+}
+
+.mobile-view {
+    display: none !important;
+}
 
 @media screen and (max-width: 1350px) and (min-width: 900px) {
     html {
@@ -342,6 +349,14 @@ header.start .header-logo {
 }
 
 @media screen and (max-width: 900px) {
+    .pc-view {
+        display: none !important;
+    }
+
+    .mobile-view {
+        display: block !important;
+    }
+
     #leftAside, #rightAside {
         display: none;
     }
@@ -355,7 +370,7 @@ header.start .header-logo {
     body {
         overflow-y: auto;
     }
-    
+
     .wrap {
         margin: 0;
         padding: 0 20px;
@@ -363,10 +378,10 @@ header.start .header-logo {
         max-width: none;
     }
 
-    #container > section{
-        height: auto ;
+    #container > section {
+        height: auto;
         min-height: 100vh;
-        padding : 75px 0;
+        padding: 75px 0;
     }
 
     .wrap {
@@ -374,5 +389,10 @@ header.start .header-logo {
         padding: 0 20px;
         width: 100%;
         max-width: none;
+    }
+
+    header > .wrap {
+        width: 100%;
+        min-width: auto;
     }
 }

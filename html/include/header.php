@@ -5,7 +5,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
 <header class="start">
     <div class="wrap">
         <a class="header-logo" href="/"></a>
-        <nav class="header__nav">
+        <nav class="header__nav pc-view">
             <ul>
                 <li data-target="1" class="select"><a>STORY</a></li>
                 <li data-target="2"><a>PHILOSOPHY</a></li>
@@ -16,7 +16,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
         </nav>
         <div class="header__lang">
             <ul>
-                <li><a target="_blank" href="http://hustory.net/bbs/register.php">JOIN +</a></li>
+                <li class="pc-view"><a target="_blank" href="http://hustory.net/bbs/register.php">JOIN +</a></li>
                 <li class="lang__change">
                     <?php
                     if (strtoupper($country) == 'KO') {
@@ -40,6 +40,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
                             <a href="#" data-lang="ja">JAPANESE</a></li>
                     </ul>
                 </li>
+                <li class="mobile-view"><i class="xi-bars"></i></li>
             </ul>
         </div>
     </div>
