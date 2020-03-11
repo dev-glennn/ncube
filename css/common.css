@@ -388,20 +388,13 @@ header.start .header__menu{
         margin: 0;
         padding: 0 20px;
         width: 100%;
-        max-width: none;
+        max-width: 100vw;
     }
 
     #container > section {
         height: auto;
         min-height: 100vh;
         padding: 75px 0;
-    }
-
-    .wrap {
-        margin: 0;
-        padding: 0 20px;
-        width: 100%;
-        max-width: none;
     }
 
     header > .wrap {
