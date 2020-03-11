@@ -11,7 +11,7 @@ $(function () {
     })
 
     $(window).on('touchstart', function () {
-        headerType();
+  //      headerType();
     })
 
 
@@ -27,7 +27,11 @@ $(function () {
         //     }
         // })
         return false;
-    })
+    });
+
+	 $('body').scroll(function(){
+		 headerType();
+	 });
 
     $(".header__nav>ul>li, #rightAside>ul>li").on('click', function () {
         const target = $(this).attr('data-target');
