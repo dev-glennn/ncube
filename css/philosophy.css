@@ -84,6 +84,7 @@
     }
 
     #philosophy .philosophy__content p {
+        font-weight: 300;
         margin-top: 0;
         font-size: 19px;
         text-shadow: none

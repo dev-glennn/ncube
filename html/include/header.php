@@ -17,7 +17,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
         <div class="header__lang">
             <ul>
                 <li class="pc-view"><a target="_blank" href="http://hustory.net/bbs/register.php">JOIN +</a></li>
-                <li class="lang__change">
+                <li class="lang__change pc-view">
                     <?php
                     if (strtoupper($country) == 'KO') {
                         echo "KOREAN";
@@ -30,17 +30,40 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
                     }
                     ?>
                     <ul class="change__ul">
-                        <li <?php if(strtoupper($country)=='EN') echo 'class="nav-none"'?>>
+                        <li <?php if (strtoupper($country) == 'EN') echo 'class="nav-none"' ?>>
                             <a href="#" data-lang="en">ENGLISH</a></li>
-                        <li <?php if(strtoupper($country)=='KO') echo 'class="nav-none"'?>>
+                        <li <?php if (strtoupper($country) == 'KO') echo 'class="nav-none"' ?>>
                             <a href="#" data-lang="ko">KOREA</a></li>
-                        <li <?php if(strtoupper($country)=='CH') echo 'class="nav-none"'?>>
+                        <li <?php if (strtoupper($country) == 'CH') echo 'class="nav-none"' ?>>
                             <a href="#" data-lang="ch">CHINESE</a></li>
-                        <li <?php if(strtoupper($country)=='JA') echo 'class="nav-none"'?>>
+                        <li <?php if (strtoupper($country) == 'JA') echo 'class="nav-none"' ?>>
                             <a href="#" data-lang="ja">JAPANESE</a></li>
                     </ul>
                 </li>
-                <li class="mobile-view"><i class="xi-bars"></i></li>
+                <li class="lang__change mobile-view">
+                    <?php
+                    if (strtoupper($country) == 'KO') {
+                        echo "KOR";
+                    } else if (strtoupper($country) == 'EN') {
+                        echo "ENG";
+                    } else if (strtoupper($country) == 'CH') {
+                        echo "CHI";
+                    } else if (strtoupper($country) == 'JA') {
+                        echo "JAP";
+                    }
+                    ?>
+                    <ul class="change__ul">
+                        <li <?php if (strtoupper($country) == 'EN') echo 'class="nav-none"' ?>>
+                            <a href="#" data-lang="en">ENG</a></li>
+                        <li <?php if (strtoupper($country) == 'KO') echo 'class="nav-none"' ?>>
+                            <a href="#" data-lang="ko">KOR</a></li>
+                        <li <?php if (strtoupper($country) == 'CH') echo 'class="nav-none"' ?>>
+                            <a href="#" data-lang="ch">CHI</a></li>
+                        <li <?php if (strtoupper($country) == 'JA') echo 'class="nav-none"' ?>>
+                            <a href="#" data-lang="ja">JAP</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-view header__menu"></li>
             </ul>
         </div>
     </div>

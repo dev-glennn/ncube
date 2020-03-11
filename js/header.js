@@ -1,10 +1,19 @@
 $(function () {
     headerType();
     fullScreenScroll();
+
+    let widthSize = window.outerWidth;
+    isMobile(widthSize)
+
     $(window).resize(function () {
-        let widthSize = window.outerWidth;
+        widthSize = window.outerWidth;
         isMobile(widthSize)
     })
+
+    $(window).on('touchstart', function () {
+        headerType();
+    })
+
 
     $(".change__ul>li>a").on('click', function () {
         let lang = $(this).attr('data-lang')
@@ -27,7 +36,7 @@ $(function () {
 })
 
 function headerType() {
-    let top = $(this).scrollTop();
+    let top = $('body').scrollTop();
 
     if (top == 0) {
         $("header").addClass('start');
@@ -46,35 +55,34 @@ function isMobile(width) {
 
 function fullScreenScroll() {
     var scrollStart = 0;
-    $(document).ready(function () {
-        $('body').bind('mousewheel DOMMouseScroll wheel', function (e) {
-            let widthSize = window.outerWidth;
-            if (widthSize > 900) {
-                isMobile(widthSize)
-                var delta = e.originalEvent.deltaY;
+    $('body').bind('mousewheel DOMMouseScroll wheel', function (e) {
+        let widthSize = window.outerWidth;
+        if (widthSize > 900) {
+            var delta = e.originalEvent.deltaY;
 
-                var this_index = $("#container").attr('data-index') * 1;
-                var last_index = $("#container > *").last().index() * 1;
+            var this_index = $("#container").attr('data-index') * 1;
+            var last_index = $("#container > *").last().index() * 1;
 
-                if (scrollStart == 0) {
-                    scrollStart = 1;
+            if (scrollStart == 0) {
+                scrollStart = 1;
 
-                    if (delta > 0 && this_index != last_index)
-                        this_index++;
-                    else if (delta < 0 && this_index > 0)
-                        this_index--;
+                if (delta > 0 && this_index != last_index)
+                    this_index++;
+                else if (delta < 0 && this_index > 0)
+                    this_index--;
 
-                    moveEvent(this_index)
+                moveEvent(this_index)
 
-                    setTimeout(function () {
-                        scrollStart = 0;
-                    }, 500);
+                setTimeout(function () {
+                    scrollStart = 0;
+                }, 500);
 
-                    e.preventdefault();
-                }
-                return false;
+                e.preventdefault();
             }
-        });
+            return false;
+        } else {
+            headerType();
+        }
     });
 }
 
@@ -82,7 +90,6 @@ function moveEvent(index) {
     let last_index = $("#container > *").last().index() * 1;
 
     $("#container").attr('data-index', index).css('margin-top', '-' + ($(window).height() * index) + 'px');
-    // $('body').animate({'scrollTop': ($(window).height() * index)}, 500);
 
     if (index == 0)
         $("header").addClass('start');
