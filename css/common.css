@@ -166,7 +166,7 @@ header.start .header-logo {
     margin-left: 20px;
 }
 
-header.start .header__menu{
+header.start .header__menu {
     background-image: url(/ncube/images/menu-w.png);
 }
 
@@ -402,8 +402,16 @@ header.start .header__menu{
         min-width: auto;
     }
 
-    .lang__change{
+    .lang__change {
         font-weight: 300;
         letter-spacing: 1px;
+    }
+
+    .m-header__menu {
+        display: none;
+    }
+
+    .m-menu-open .m-header__menu {
+        display: block;
     }
 }
