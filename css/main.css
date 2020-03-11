@@ -91,6 +91,7 @@
 .main-box h1 {
     font-size: 64px;
     font-weight: bold;
+    padding: 0 10px;
 }
 
 .main-box p {
@@ -117,6 +118,7 @@
     }
     .main-box p{
         font-size: 16px;
+        padding: 0 10px;
     }
     .main-box p > span{
         font-size: 22px;
