@@ -82,6 +82,7 @@
     border-radius: 50%;
     margin-right: 25px;
     z-index: 10;
+    overflow: hidden;
 }
 
 .content-top .top-coin .coin:last-child {
