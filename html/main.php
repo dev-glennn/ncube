@@ -33,7 +33,7 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/tw.slide
                 <div class="main-box">
                     <img src="/ncube/images/main-icon03.png" alt="Block chain">
                     <h1>BLOCK CHAIN</h1>
-                    <p><?= lang('자율적 <span>‘人’</span> 공동체로 구성되는 새로운 경제 생태계', 'a new economic ecosystem consisting of autonomous <span> people </span>\'s community.', '由自主的<span> \'人\' </span>共同體構成的新經濟生態系', '自律的<span> \'人\' </span>共同体で構成される新しい経済生態系') ?></p>
+                    <p><?= lang('<span>‘人’</span> 공동체 중심의 혁신적인 Tokenomics 글로벌 경제 생태계 ', 'Innovative Tokenomics Global Economic Ecosystem centered on <span> people </span>\'s community.', '由自主的<span> \'人\' </span>共同體構成的新經濟生態系', '<span> \'人\' </span>共同体中心の革新的なTokenomicsグローバル経済の生態系') ?></p>
                 </div>
             </div>
         </li>
