@@ -30,10 +30,18 @@
 
 .content-top .top-exchange {
     margin-bottom: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content-top .top-exchange > img:first-child {
+.content-top .top-exchange > img {
     margin-right: 33px;
+    max-height:38px;
+}
+
+.content-top .top-exchange > img:last-child {
+    margin-right: 0;
 }
 
 .content-top .top-coin {
@@ -51,7 +59,7 @@
     height: 1px;
     top: 50%;
     right: 0;
-    transform: translate(100%,-50%);
+    transform: translate(100%, -50%);
     background-color: #fff;
     z-index: -1;
 }
