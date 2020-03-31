@@ -1,5 +1,5 @@
 <?php
-add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/ecosystem.css?ver=" . G5_CSS_VER . "'>");
+add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/ecosystem.css?ver=" . time() . "'>");
 ?>
 
 <section id="ecosystem">
@@ -12,6 +12,7 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/ecosystem.css?
                         <div class="top-exchange">
                             <img src="/ncube/images/eco-bithumb.png" alt="bithumb">
                             <img src="/ncube/images/eco-hudex.png" alt="hudex">
+                            <img src="/ncube/images/eco-hudex-gb.png" alt="hudex global">
                         </div>
                         <div class="top-coin">
                             <div class="coin"><img src="/ncube/images/eco-cbc.png" alt="cbc"></div>
