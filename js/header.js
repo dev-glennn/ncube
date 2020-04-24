@@ -17,7 +17,7 @@ $(function () {
 
     $(".change__ul>li>a").on('click', function () {
         let lang = $(this).attr('data-lang')
-        alert("글로벌 언어 홈페이지는 3월 내 추가 오픈 합니다.")
+        alert("글로벌 언어 홈페이지는 2020년 5월~6월 중 오픈 준비중입니다.")
         // $.ajax({
         //     url: '/lang_change.php',
         //     type: 'POST',

@@ -1,6 +1,6 @@
 <?php
 include_once('head.sub.php');
-add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.js"></script>');
+add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.js?ver='.time().'"></script>');
 ?>
 <header class="start">
     <div class="wrap">
