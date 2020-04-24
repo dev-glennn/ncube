@@ -163,6 +163,10 @@ body[data-lang='ja'] .content-bottom .bottom-item > span {
         margin-right: 15px;
     }
 
+    .content-top .top-exchange > img {
+        max-height:25px;
+    }
+
     .ecosystem-title {
         height: auto;
         padding: 0px 0 30px 0;
@@ -187,12 +191,14 @@ body[data-lang='ja'] .content-bottom .bottom-item > span {
     }
 
     .content-bottom .bottom-item {
-        width: 45%;
+        width: 40%;
         height: 0;
-        padding-bottom: 45%;
+        padding-bottom: 40%;
         margin: 30px 0
     }
-
+    .content-bottom .bottom-item > span{
+        bottom: 25px;
+    }
     .bottom-item img {
         position: absolute;
         top: 50%;
@@ -204,4 +210,13 @@ body[data-lang='ja'] .content-bottom .bottom-item > span {
         font-weight: 300;
     }
 
+}
+
+@media screen and (max-width: 420px) {
+    .content-bottom .bottom-item > span{
+        bottom: 20px;
+    }
+    .content-top .top-exchange > img {
+        max-height:18px;
+    }
 }

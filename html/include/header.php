@@ -63,17 +63,17 @@ add_javascript('<script type="text/javascript" src="' . $NC_PATH . '/js/header.j
                             <a href="#" data-lang="ja">JAP</a></li>
                     </ul>
                 </li>
-                <li class="mobile-view header__menu">
-                    <div class="m-header__menu">
-                        <ul>
-                            <li data-target="1" class="select"><a>STORY</a></li>
-                            <li data-target="2"><a>PHILOSOPHY</a></li>
-                            <li data-target="3"><a>ECOSYSTEM</a></li>
-                            <li data-target="4"><a>VISION</a></li>
-                            <li data-target="5"><a>CONTACT</a></li>
-                        </ul>
-                    </div>
-                </li>
+<!--                <li class="mobile-view header__menu">-->
+<!--                    <div class="m-header__menu">-->
+<!--                        <ul>-->
+<!--                            <li data-target="1" class="select"><a>STORY</a></li>-->
+<!--                            <li data-target="2"><a>PHILOSOPHY</a></li>-->
+<!--                            <li data-target="3"><a>ECOSYSTEM</a></li>-->
+<!--                            <li data-target="4"><a>VISION</a></li>-->
+<!--                            <li data-target="5"><a>CONTACT</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </li>-->
             </ul>
         </div>
     </div>

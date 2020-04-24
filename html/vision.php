@@ -8,7 +8,7 @@ add_stylesheet("<link rel='stylesheet' href='" . $NC_PATH . "/css/vision.css?ver
         <div class="table-cell">
             <div class="wrap">
                 <div class="vision-main">
-                    <img src="<?= $NC_PATH ?>/images/vision-main-ko.png">
+<!--                    <img src="--><?//= $NC_PATH ?><!--/images/vision-main-ko.png">-->
                 </div>
             </div>
         </div>
